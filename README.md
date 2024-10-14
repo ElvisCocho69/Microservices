@@ -33,3 +33,7 @@ Un sistema de ventas moderno que utiliza **microservicios** para asegurar escala
 ```bash
 git clone https://github.com/usuario/tu-proyecto.git
 cd tu-proyecto
+
+### 2. **Instalar las dependencias: **
+```bash
+npm install
