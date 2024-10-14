@@ -1,0 +1,62 @@
+button.delete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #e74c3c; /* Rojo más suave */
+  box-shadow: 0px 4px 0px 0px #c0392b;
+  transition: all 0.2s ease-in-out;
+}
+
+button.delete:hover {
+  background: #c0392b; /* Rojo más oscuro */
+  box-shadow: 0px 6px 0px 0px #a93226;
+  transform: scale(1.1);
+}
+
+button.delete:active {
+  top: 2px;
+  box-shadow: 0px 2px 0px 0px #a93226;
+}
+
+button.edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #27ae60; /* Verde menta más moderno */
+  box-shadow: 0px 4px 0px 0px #229954;
+  transition: all 0.2s ease-in-out;
+}
+
+button.edit:hover {
+  background: #229954; /* Verde más oscuro */
+  box-shadow: 0px 6px 0px 0px #1e8449;
+  transform: scale(1.1);
+}
+
+button.edit:active {
+  top: 2px;
+  box-shadow: 0px 2px 0px 0px #1e8449;
+}
+
+.button-group {
+  display: flex;
+  gap: 8px; /* Espacio entre los botones */
+  justify-content: center;
+  align-items: center;
+}

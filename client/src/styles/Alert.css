@@ -1,0 +1,74 @@
+.alert_wrapper {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 1;
+    transition: opacity 0.5s ease; 
+}
+  
+.alert_wrapper.active {
+    visibility: visible;
+}
+  
+.alert_wrapper.fade-out {
+    opacity: 0;
+}
+  
+.alert_item {
+    position: relative;
+    background: #def2d6;
+    color: #5a7052;
+    padding: 20px 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+  
+.progress_border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #5a7052;
+    animation: progress 5s linear;
+}
+  
+@keyframes progress {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0;
+    }
+}
+  
+.alert_item .data {
+    margin: 0;
+}
+  
+.alert_item .data .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+  
+.alert_item .data .sub {
+    font-size: 14px;
+    font-weight: 100;
+}
+  
+.alert_item .icon {
+    font-size: 28px;
+    cursor: pointer;
+}
+  
+.alert_item .close:hover {
+    color: #adc5a5;
+}  
+
