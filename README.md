@@ -1,4 +1,4 @@
-# 🌟 Nombre del Proyecto
+# 🌟 POS - Spring
 
 ![Status](https://img.shields.io/badge/STATUS-En%20Desarrollo-green)  
 ![GitHub Issues](https://img.shields.io/github/issues/usuario/tu-proyecto)  
